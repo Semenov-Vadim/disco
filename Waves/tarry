@@ -12,8 +12,7 @@ class Node:
   # checking the end of the program
   def is_end():
     if visited.empty():
-      print("Done")
-      exit()
+      return 1
       
   
   # enterence next node
