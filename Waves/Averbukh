@@ -4,7 +4,7 @@ class Node:
   used = []  
 
 
-  # to initialize the algorithm
+  # initializing the algorithm
   def init():
     father = self
     for node in neigh:
