@@ -1,5 +1,5 @@
 class Node:
-  father = -1
+  father = None
   adjacency_matrix = list
   visited = []
   
@@ -30,7 +30,7 @@ class Node:
 
 
 if __name__ == __main__:
-  # some algorithm of creating Nodes...
+  # some algorithm of creating Nodes
   nodes= list
   
   # randomly choose init node 
