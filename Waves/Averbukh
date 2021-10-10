@@ -34,7 +34,7 @@ class Node:
         else:
           return
       
-      elif:
+      else:
         for node in neigh:
           if node not in used and node != father:
             used.append(node)
