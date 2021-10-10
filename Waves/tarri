@@ -1,0 +1,39 @@
+class Node:
+  father = -1
+  adjacency_matrix = list
+  visited = []
+  
+  # first enterence of this node
+  def visit(father: Node):
+    this.father = father
+    visit_next()
+    
+  
+  # checking the end of the program
+  def is_end():
+    if visited.empty():
+      print("Done")
+      exit()
+      
+  
+  # enterence next node
+  def visit_next():
+    if father == None:
+      is_end()
+    
+    for node in adjacency_matrix:
+      if node not in visited and not parent:
+        visited.append(node)
+        node.visit()
+    else:
+      parent.visit()
+
+
+if __name__ == __main__:
+  # some algorithm of creating Nodes...
+  nodes= list
+  
+  # randomly choose init node 
+  init = rand(nodes)
+  init.visit(None)
+  
