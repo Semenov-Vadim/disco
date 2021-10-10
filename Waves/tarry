@@ -1,6 +1,6 @@
 class Node:
   father = None
-  adjacency_matrix = list
+  neigh = list
   visited = []
   
   # first enterence of this node
@@ -20,7 +20,7 @@ class Node:
     if father == None:
       is_end()
     
-    for node in adjacency_matrix:
+    for node in neigh:
       if node not in visited and not parent:
         visited.append(node)
         node.visit()
